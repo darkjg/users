@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: grey;
   margin: 0;
   padding: 20px;
 }
@@ -10,4 +10,44 @@ h1 {
   color: #333;
 }
 
+ul{
+  list-style: none;
+  padding: 2%;
+  
+}
+ul#listaUsuarios{
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  width: 100%;    
+}
+ul#listaUsuarios li{
+  display: flex;
+  
+  flex-wrap: wrap;
+      
+}
+ul#listaUsuarios p{
+  margin: 2%;
+  display: flex;
+}
 
+.arriba{
+  align-items: center;
+  margin: 2%;
+  display: flex;
+}
+.usuario{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+}
+
+ul#listaUsuarios div{
+  border: black 3px solid;
+}
+ul#listaUsuarios img{
+  width: 15%;
+  display: flex;
+  
+}
